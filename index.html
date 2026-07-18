@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juan Miguel Santos — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanline-overlay" aria-hidden="true"></div>
+
+<div class="window">
+
+  <div class="titlebar">
+    <div class="dots">
+      <span class="dot dot-r"></span>
+      <span class="dot dot-y"></span>
+      <span class="dot dot-g"></span>
+    </div>
+    <span class="filename">portfolio.json</span>
+    <span class="filestatus" id="fetchStatus">reading file…</span>
+  </div>
+
+  <header class="hero">
+    <p class="eyebrow">// personal_portfolio_app</p>
+    <h1 id="heroName">Loading name<span class="cursor">_</span></h1>
+    <p class="hero-course" id="heroCourse"></p>
+    <p class="hero-about" id="heroAbout"></p>
+
+    <button id="toggleBtn" class="toggle-btn" disabled>
+      <span class="prompt">&gt;</span>
+      <span id="btnLabel">connecting…</span>
+      <span class="cursor">_</span>
+    </button>
+  </header>
+
+  <main id="portfolioBody" class="portfolio-body" hidden>
+
+    <section class="block" id="skillsBlock">
+      <p class="key">"skills"<span class="punct">: [</span></p>
+      <ul class="skills-list" id="skillsList"></ul>
+      <p class="punct closing">]</p>
+    </section>
+
+    <section class="block" id="eduBlock">
+      <p class="key">"education"<span class="punct">: [</span></p>
+      <div class="edu-list" id="eduList"></div>
+      <p class="punct closing">]</p>
+    </section>
+
+    <section class="block" id="projectsBlock">
+      <p class="key">"projects"<span class="punct">: [</span></p>
+      <div class="projects-grid" id="projectsGrid"></div>
+      <p class="punct closing">]</p>
+    </section>
+
+    <section class="block" id="contactBlock">
+      <p class="key">"contact"<span class="punct">: {</span></p>
+      <div class="contact-list" id="contactList"></div>
+      <p class="punct closing">}</p>
+    </section>
+
+  </main>
+
+  <footer class="statusbar">
+    <span id="lineInfo">Ln 1, Col 1</span>
+    <span class="dividerdot">•</span>
+    <span>UTF-8</span>
+    <span class="dividerdot">•</span>
+    <span>JSON</span>
+    <span class="spacer"></span>
+    <span id="footNote">fetch("portfolio.json")</span>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

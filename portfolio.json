@@ -1,0 +1,53 @@
+{
+  "personalInfo": {
+    "fullName": "Aj Brian Gutierrez",
+    "course": "BSIT 3-2 — Central Luzon State University",
+    "about": "Third-year BSIT student at Central Luzon State University who enjoys building things across the stack — from desktop games and GUI applications to database-backed systems, web tools, and machine learning models."
+  },
+  "skills": [
+    "Java",
+    "MySQL",
+    "HTML5 & CSS3",
+    "JavaScript",
+    "Python"
+  ],
+  "education": [
+    {
+      "school": "Central Luzon State University",
+      "degree": "Bachelor of Science in Information Technology",
+      "year": "3rd year, 2nd block (3-2)"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Snake Game",
+      "description": "A classic Snake game built with a Java GUI, featuring real-time keyboard controls, collision detection, and score tracking.",
+      "technologies": ["Java", "Java Swing"]
+    },
+    {
+      "title": "Student Monitoring System",
+      "description": "A system for recording and tracking student records, grades, and attendance, backed by a relational database.",
+      "technologies": ["Java", "MySQL"]
+    },
+    {
+      "title": "Page Replacement Algorithm Simulator",
+      "description": "An interactive web app that visualizes how page replacement algorithms (e.g., FIFO, LRU) manage memory frames step by step.",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "Loan Prediction Model",
+      "description": "A machine learning model trained on applicant data to predict loan approval outcomes, built and tested in Google Colab.",
+      "technologies": ["Python", "Pandas", "Scikit-learn", "Google Colab"]
+    },
+    {
+      "title": "Calculator App",
+      "description": "A simple calculator application built with Java Swing, featuring basic arithmetic operations and a clean user interface.",
+      "technologies": ["Java", "Java Swing"]
+    }
+  ],
+  "contact": {
+    "email": "ajbriangutierrez@gmail.com",
+    "phone": "+63 995 3989 346",
+    "link": "https://github.com/eyjeyyz"
+  }
+}
